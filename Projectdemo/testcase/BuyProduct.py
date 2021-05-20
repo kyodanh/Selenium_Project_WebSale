@@ -48,7 +48,7 @@ class Testdemo(unittest.TestCase):
         a.move_to_element(hover).perform()  ##move_to_element dùng để làm hover
         hover.click()
         driver.find_element_by_xpath("//*[@id='quantity_wanted']").clear()
-        driver.find_element_by_xpath("//*[@id='quantity_wanted']").send_keys()
+        driver.find_element_by_xpath("//*[@id='quantity_wanted']").send_keys("4")
 
 
 
